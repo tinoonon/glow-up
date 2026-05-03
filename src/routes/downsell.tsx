@@ -37,6 +37,12 @@ const IconShield = () => (
     <path d="m9 12 2 2 4-4" stroke="#000" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
+const IconLock = () => (
+  <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
+    <rect x="4" y="10" width="16" height="11" rx="2" fill="currentColor" />
+    <path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" strokeWidth="2.2" fill="none" />
+  </svg>
+);
 const IconArrow = () => (
   <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none">
     <path d="M5 12h14m0 0-5-5m5 5-5 5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
